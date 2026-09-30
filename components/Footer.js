@@ -1,8 +1,10 @@
 export default function Footer() {
+  const year = new Date().getFullYear();
+
   return (
     <footer>
-      <span>Rob Hill</span>
-      <span>Software Automation Engineer</span>
+      <span>© {year} Rob Hill</span>
+      <span>Control Systems Engineer · Oughtershaw, England</span>
     </footer>
   );
 }

@@ -1,6 +1,10 @@
 # Rob Hill
 
-> Software Automation Engineer at Howorth Air Tech. PLC, HMI, and SCADA for pharmaceutical containment systems.
+> Control Systems Engineer | Ignition SCADA ▸ PLCs (AB/Siemens) ▸ HMIs & Historians. Based in Oughtershaw, England.
 
-- [Home](/): About, experience, skills, and LinkedIn contact
+- [Home](/): About, experience, projects, skills, education, and LinkedIn
 - [LinkedIn](https://www.linkedin.com/in/adsgb/): Professional profile
+
+## Roles
+- Software Automation Engineer, Howorth Air Technology Ltd (Jun 2015 — Present)
+- Director, AUTOMATION DESIGN SERVICES LTD (Apr 2015 — Present)

@@ -56,11 +56,14 @@ export default function Hero() {
     <section className="hero">
       <div className="hero-copy">
         <p className="name">Rob Hill</p>
-        <h1>Software Automation Engineer</h1>
+        <h1>Control Systems Engineer</h1>
+        <p className="tagline">
+          Ignition SCADA · Allen‑Bradley &amp; Siemens PLCs · HMIs &amp; Historians
+        </p>
         <p className="lede">
-          Lead PLC, HMI, and SCADA delivery for pharmaceutical containment
-          systems at Howorth Air Tech — from first design through FAT and remote
-          commissioning.
+          Designing and delivering plant‑floor controls through to SCADA,
+          historians, and business‑system integration — with a focus on clear
+          architecture and systems that stay maintainable.
         </p>
         <div className="cta-row">
           <a
@@ -73,16 +76,16 @@ export default function Hero() {
             <LinkedInIcon />
             <span>LinkedIn</span>
           </a>
-          <a className="btn ghost" href="#experience">
-            See experience
+          <a className="btn ghost" href="#connect">
+            Get in touch
           </a>
         </div>
         <p className="meta">
-          <span>Bolton, England</span>
+          <span>Oughtershaw, England</span>
           <span className="dot" aria-hidden="true" />
-          <span>Howorth Air Tech</span>
+          <span>Howorth Air Technology</span>
           <span className="dot" aria-hidden="true" />
-          <span>Since 2015</span>
+          <span>Automation Design Services</span>
         </p>
       </div>
 
@@ -94,7 +97,7 @@ export default function Hero() {
           <div className="hero-photo-inner" ref={photoRef}>
             <Image
               src="/sample-portrait.webp"
-              alt="Sample portrait placeholder for Rob Hill"
+              alt="Portrait of Rob Hill"
               fill
               priority
               fetchPriority="high"
