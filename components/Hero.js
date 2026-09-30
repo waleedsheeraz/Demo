@@ -96,7 +96,7 @@ export default function Hero() {
         <figure className="hero-photo" ref={frameRef}>
           <div className="hero-photo-inner" ref={photoRef}>
             <Image
-              src="/sample-portrait.webp"
+              src="/rob-hill.webp"
               alt="Portrait of Rob Hill"
               fill
               priority
