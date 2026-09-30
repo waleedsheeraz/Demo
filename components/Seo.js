@@ -26,7 +26,7 @@ const personSchema = {
     },
     {
       "@type": "Organization",
-      name: "AUTOMATION DESIGN SERVICES LTD",
+      name: "Automation Design Services Ltd",
     },
   ],
   sameAs: ["https://www.linkedin.com/in/adsgb/"],

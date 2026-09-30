@@ -12,7 +12,7 @@ const roles = [
   },
   {
     title: "Director",
-    org: "AUTOMATION DESIGN SERVICES LTD",
+    org: "Automation Design Services Ltd",
     meta: "West Yorkshire",
     dates: "Apr 2015 — Present",
     points: [
@@ -75,8 +75,8 @@ export default function Experience() {
                   {role.org}
                   {role.meta ? ` · ${role.meta}` : ""}
                 </p>
+                <p className="dates">{role.dates}</p>
               </div>
-              <p className="dates">{role.dates}</p>
             </div>
             {role.points.length > 0 && (
               <ul>
