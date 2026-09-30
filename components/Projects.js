@@ -8,7 +8,7 @@ const projects = [
   {
     title: "BorgWarner assembly jig",
     dates: "2014 — Present",
-    org: "AUTOMATION DESIGN SERVICES LTD",
+    org: "Automation Design Services Ltd",
     body: "Three-arm turbo alignment jig on S7-300 and KTP 1000, with 500 recipes stored in the PLC. Extended with wireless wrenches and no-fault-forward build checks so incomplete sequences cannot leave the line.",
   },
   {
@@ -30,8 +30,8 @@ export default function Projects() {
               <div>
                 <h3>{project.title}</h3>
                 <p className="org">{project.org}</p>
+                <p className="dates">{project.dates}</p>
               </div>
-              <p className="dates">{project.dates}</p>
             </div>
             <p>{project.body}</p>
           </article>
