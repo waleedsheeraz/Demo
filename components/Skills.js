@@ -1,22 +1,30 @@
 const areas = [
   {
-    title: "Platforms",
-    body: "Siemens TIA Portal · WinCC · Allen-Bradley RSLogix 500 / 5000 · FactoryTalk View · Ignition SCADA · GuardLogix",
+    title: "SCADA & HMI",
+    body: "Ignition SCADA · FactoryTalk View · WinCC / WinCC Flexible · Wonderware InTouch · AVEVA · Historians",
   },
   {
-    title: "Domains",
-    body: "Aseptic isolators · Filling-line isolators · RABS · Downflow booths · Sterility test systems · Room gassing / VHP",
+    title: "PLC platforms",
+    body: "Allen‑Bradley / Rockwell · GuardLogix · CompactLogix · Siemens TIA Portal · STEP 7 · Ladder logic · Safety systems",
   },
   {
-    title: "Integration",
-    body: "Profinet · EtherNet/IP · Modbus TCP / RTU · RS232 · MQTT · OPC UA · Third-party equipment commissioning",
+    title: "Integration & OT",
+    body: "OPC UA · MQTT · Modbus · Kepware · DNP3 · Networking · VPN · VMware · Cyber security",
+  },
+  {
+    title: "Software & data",
+    body: "Python · SQL · PostgreSQL · Git · VBA · Databases · Data modelling",
+  },
+  {
+    title: "Delivery",
+    body: "Requirements gathering · Project management · Contract management · Continuous improvement",
   },
 ];
 
 export default function Skills() {
   return (
     <section id="skills" className="section">
-      <h2>Focus areas</h2>
+      <h2>Skills</h2>
       <div className="skills">
         {areas.map((area) => (
           <div key={area.title}>
