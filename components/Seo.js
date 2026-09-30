@@ -4,7 +4,7 @@ const SITE_URL = "https://www.linkedin.com/in/adsgb/";
 const TITLE = "Rob Hill — Control Systems Engineer";
 const DESCRIPTION =
   "Control Systems Engineer specialising in Ignition SCADA, Allen-Bradley and Siemens PLCs, HMIs and historians. Based in Oughtershaw, England.";
-const IMAGE_PATH = "/sample-portrait.webp";
+const IMAGE_PATH = "/rob-hill.webp";
 
 const personSchema = {
   "@context": "https://schema.org",
